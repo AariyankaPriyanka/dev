@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ticket booking</title>
+        <link rel="stylesheet"  type="text/css">
+        
+        <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    height: 60px;
+    background: #583737;
+    padding: 0 50px;
+}
+
+
+.logo{
+        float:left;
+        padding: 10px;
+}
+
+nav{
+    width: 68%;
+    float:inline-start;
+}
+nav ul{
+    list-style: none;
+    float:inherit;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+}
+
+
+a:hover
+{
+    color: rgb(35, 250, 53);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+}
+.svg{
+    font-size: 150px;
+    padding-top: 11%;
+}
+.copy{
+    fill:none;
+    stroke:#fff;
+    stroke-width: 3px;
+    stroke-dasharray: 8% 30%;
+    stroke-dashoffset: 0%;
+    animation: textanimation 6s linear infinite;
+}
+@keyframes textanimation {
+    100%{
+        stroke-dashoffset: -35%;
+    }
+}
+.copy1{
+    stroke:rgb(241, 156, 29);
+    animation-delay: -1s;
+}
+.copy2{
+    stroke:#7a1e57;
+    animation-delay: -2s;
+}
+.copy3{
+    stroke:#f0106d;
+    animation-delay: -3s;
+}
+.copy4{
+    stroke:#a0340a;
+    animation-delay: -4s;
+}
+.copy5{
+    stroke:#f03636;
+    animation-delay: -5s;
+}
+
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(119, 133, 83, 0.71), rgba(128, 124, 69, 0.71)),  url("pic3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner img{
+    width: 100%;
+    height: 90vh;
+}
+
+footer{
+    background: rgb(5, 5, 5);
+    color:rgb(252, 245, 245);
+    padding: 15px 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+        </style>
+    </head>
+    <body>
+
+        
+                
+        <header>
+            
+            <nav>
+                <div class="logo">
+                    <img src="logo.png" width="50" height="50" >
+               </div>
+                <ul>
+                    <li> <a href="home.html">HOME</a> </li>
+                    <li><a href="movieList.html">MOVIE LIST</a></li>
+                    <li> <a href="login.html">LOGIN</a> </li>
+                </ul>
+            </nav>
+
+            <div class="container">
+                <svg viewBox="0 0 1000 400">
+                    <text id="mytext" x="75%" y="50%" text-anchor="middle" fill="none" style="font-size: 80px;">Royal Theater </text>
+                    
+                    <use xlink:href="#mytext" class="copy copy1"></use>
+                    <use xlink:href="#mytext" class="copy copy2"></use>
+                    <use xlink:href="#mytext" class="copy copy3"></use>
+                    <use xlink:href="#mytext" class="copy copy4"></use>
+                    <use xlink:href="#mytext" class="copy copy5"></use>
+                </svg>
+            </div>
+
+            <br>
+            
+                <a href="form.html">
+                    <button style="background-color: rgb(224, 190, 125); color:rgb(180, 30, 50); border-radius: 50px;
+                     font-size: 35px; padding: 40px; padding-top: 10px; padding-right: 30px; padding-left: 30px;
+                      padding-bottom: 10px; font-family: sans-serif; clip-path: circle(55%);
+                      position: absolute;top:69%;right: 150px;width: 400px;transform: translateY(-40%);">TICKET BOOKING!</button>
+                       
+           
+          
+    
+</header>
+<div class="banner">
+</div>
+
+
+
+<footer>
+    <p>All right reserved by our Royal Theater</p>
+</footer>
+
+</body>
+
+</html>
+ 

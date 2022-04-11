@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style >
+video{
+	position:fixed;
+	z-index: -1;
+	right:0;
+	bottom: 0;
+    width: 100%;
+}
+
+.container {
+	width: 300px;
+	height: 450px;
+	margin:7% auto;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px rgb(230, 211, 48);
+}
+
+.header {
+	text-align: center;
+ 	padding-top: 75px;
+  	
+}
+
+.header h1 {
+	color: rgb(247, 7, 87);
+	font-size: 45px;
+	margin-bottom: 80px;
+}
+
+.main {
+	text-align: center;
+}
+
+.main input, button {
+	width: 270px;
+	height: 45px;
+	border-radius: 25px;
+	background-color: rgb(110, 58, 80);
+	border:none;
+	outline: none;
+	padding-left: 38px;
+	box-sizing: border-box;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.main button {
+	padding-left: 0;
+	border-radius: 25px;
+	background-color: rgb(87, 87, 86);
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.main button:hover {
+	box-shadow: 2px 2px 5px rgb(10, 250, 62);
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	}
+.main input:hover {
+	box-shadow: 2px 2px 5px rgb(22, 255, 22);
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	}
+
+.main span {
+	position: relative;
+}
+
+.main i {
+	position: absolute;
+	left: 15px;
+	color: rgb(250, 11, 150);
+	font-size: 16px;
+	top: 2px;
+}
+.col{
+	color: rgb(252, 9, 199);
+}
+	</style>
+</head>
+<body>
+
+ <div class="container">
+ 	<div class="header">
+ 		<h1>LogIn</h1>
+ 	</div>
+ 	<div class="main">
+ 		<form>
+ 			<span>
+ 				
+ 				<input type="text" placeholder="Username" name="" required="">
+ 			</span><br>
+ 			<span>
+ 				
+ 				<input type="password" placeholder="Password" name="" required="">
+ 			</span><br>
+ 				<button class="col">Log In</button>
+
+ 		</form>
+ 	</div>
+ </div>
+ <video autoplay muted loop>
+    <source src="video1.mp4" >
+</video>
+</body>
+</html>
